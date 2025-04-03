@@ -8,4 +8,4 @@ showMessage("hehehe");
 var showMessage2 = function() {
     console.log('Expression function');
 }
-showMessage2('hihi');
+showMessage2('hihi'); 
