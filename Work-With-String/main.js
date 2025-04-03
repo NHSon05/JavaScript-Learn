@@ -1,11 +1,12 @@
-// Declaration function
-function showMessage(){
-    console.log('Declaration function');
-}
-showMessage("hehehe");
+// Cách tạo chuỗi
+var firstName = "Son";
+var lastName = "Dang";
+console.log(`Toi la: ${firstName} ${lastName}`);
 
-// Expression function
-var showMessage2 = function() {
-    console.log('Expression function');
-}
-showMessage2('hihi');
+// Làm việc với chuỗi
+var myString = 'hoc Js tai F8';
+console.log(myString.length);
+console.log(myString.indexOf('J'));
+
+// Han upperCase
+console.log(myString.toUpperCase());
